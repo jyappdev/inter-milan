@@ -37,7 +37,7 @@ header h1 {
 }
 
 body {
-  background: #171717;
+  background: linear-gradient(to right, #111 50%, #011ea0);
 }
 
 #name {
