@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
   padding: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .bebas-neue-regular {
@@ -15,29 +17,17 @@
   font-style: normal;
 }
 
-/* .header {
-  font-family: "Bebas Neue";
-  font-size: 3rem;
-  text-align: center;
-  text-transform: uppercase;
-  padding: 32px;
-  background-color: #011ea0;
-  color: #f5f5f5;
-  border-bottom: 2px solid #f5f5f5;
-  border-radius: 10px;
-  margin: 1em;
-} */
-
 header img {
   width: 100%;
+  height: auto;
   position: relative;
-  top: -100px;
+  top: -50px;
+  margin: 0 auto;
 }
 
 header h1 {
   position: absolute;
   left: 10%;
-  top: -5%;
   font-family: "Bebas Neue";
   font-size: 4.5rem;
   color: #f5f5f5;
@@ -119,21 +109,42 @@ footer img {
   .header h1 {
     font-size: 4.25rem;
   }
+  .gallery img {
+    height: 450px;
+  }
 }
 
-@media only screen and (max-width: 735px) {
+@media only screen and (max-width: 750px) {
   .header h1 {
     font-size: 3.25rem;
   }
+  .gallery img {
+    height: 350px;
+  }
 }
-@media only screen and (max-width: 450px) {
-  .header h1 {
-    font-size: 2.75rem;
+@media only screen and (max-width: 635px) {
+  .gallery img {
+    height: 250px;
   }
 }
 
-@media only screen and (max-width: 365px) {
+@media only screen and (max-width: 500px) {
   .header h1 {
-    font-size: 2.25rem;
+    font-size: 2.75rem;
+  }
+  .gallery img {
+    height: 200px;
+  }
+  #name {
+    font-size: 1.25rem;
+    padding-left: 0.5rem;
+  }
+  .number {
+    font-size: 3.25rem;
+    padding-left: 0.5rem;
+  }
+  #surname {
+    font-size: 2.75rem;
+    padding-left: 0.5rem;
   }
 }
